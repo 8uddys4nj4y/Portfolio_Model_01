@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <script src="portfolio.js"></script>
+</head>
+<body>
+    <div id="particles-bgi"></div>
+    <div class="cursor-follower"></div>
+
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">PORTFOLIO</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="https://youtube.com/@codewith8uddy?si=vDEMHVhkCNQH3nk_" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                    <i class="social-icon youtube"></i>
+                </a>
+                <a href="https://www.instagram.com/8uddys4nj4y?igsh=MWw4dXU4NGI4em5mcg==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <i class="social-icon instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/codewith8uddy-sanjay-642a36353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="social-icon linkedin"></i>
+                </a>
+                <a href="https://github.com/8uddys4nj4y" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="social-icon github"></i>
+                </a>
+                <a href="https://discord.gg/B32g2RyV" target="_blank" rel="noopener noreferrer" aria-label="Discord">
+                    <i class="social-icon discord"></i>
+                </a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="wheel-container">
+            <div class="wheel" id="spinWheel">
+              <img class="item1" src="laptop-screen.png" >
+              <img class="item2" src="pendrive.png">
+              <img class="item3" src="app-development (1).png" >
+              <img  class="item4" src="headphone.png">
+            </div>
+        </div>
+        
+        <img src="ChatGPT_Image_Apr_21__2025__03_11_10_PM-removebg-preview.png" alt="" class="anime1">
+        <img src="bag_zip_open.png" alt="" id="bag_img" onclick="changeImage()" class="bag">
+        <section id="home" class="hero">
+            <h1 class="title">Hi It's Sanjay </h1>
+            <div class="role-container">
+                I am a <span class="role-text"></span>
+            </div>
+            <p class="subtitle">Bringing creativity and technical expertise to every project</p>
+            <a href="#services" class="cta-button">Explore My Work</a>
+        </section>
+        <section id="services" class="services">
+            <h2>My <span class="highlight">Services</span></h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon-container">
+                        <i class="service-icon gamepad"></i>
+                    </div>
+                    <h3>Game Development</h3>
+                    <p>Creating immersive gaming experiences with modern game engines and technologies</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-container">
+                        <i class="service-icon code"></i>
+                    </div>
+                    <h3>Frontend Web Development</h3>
+                    <p>Building responsive, interactive websites with the latest web technologies</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-container">
+                        <i class="service-icon cube"></i>
+                    </div>
+                    <h3>3D Modeling</h3>
+                    <p>Designing detailed 3D models and assets for games, animations, and visualizations</p>
+                </div>
+            </div>
+        </section>
+        .
+
+        <section id="certificates" class="certificates">
+            <h2>My <span class="highlight">Certificates</span></h2>
+            <div class="certificates-grid">
+                <div class="certificate-card" data-certificate="game-dev">
+                    <div class="icon-container">
+                        <img src="js.jpg" class="certificate-icon1 award"></img>
+                    </div>
+                    <h3>Javascript Master Certification</h3>
+                    <p>SimpliLearn Academy</p>
+                    <p class="date">2025</p>
+                    <div class="view-text">Click to view</div>
+                </div>
+                <div class="certificate-card" data-certificate="frontend">
+                    <div class="icon-container">
+                        <img src="www.png" class="certificate-icon2 award"></img>
+                    </div>
+                    <h3>Frontend Master Certification</h3>
+                    <p>SimpliLearn Academy</p>
+                    <p class="date">2025</p>
+                    <div class="view-text">Click to view</div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="skills">
+            <h2>S k i <span class="highlight2">l l s</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="icon-webdev">
+                        <img src="web.png" class="frontend-icon"></img>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <!-- <p></p> -->
+                </div>
+                <div class="skill-card">
+                    <div class="icon-webdev">
+                        <img src="unitygames.png" class="game-icon"></img>
+                    </div>
+                    <h3>Game Development</h3>
+                    <!-- <p></p> -->
+                </div>
+            </div>
+            <div class="emptydiv"></div>
+            <div class="skills-grid">
+                
+                <div class="skill-card">
+                    <div class="icon-webdev">
+                        <img src="python (1).png" class="python-icon"></img>
+                    </div>
+                    <h3>Python Development</h3>
+                    <!-- <p></p> -->
+                </div>
+                <div class="skill-card">
+                    <div class="icon-webdev">
+                        <img src="blender.png" class="blender-icon"></img>
+                    </div>
+                    <h3>3D Modelling</h3>
+                    <!-- <p></p> -->
+                </div>
+            </div>
+        </section>
+        <img src="ChatGPT_Image_Apr_21__2025__03_09_32_PM-removebg-preview.png" alt="" class="anime2">
+
+        <div id="contact" class="contact">
+            <h2>Contact <span class="highlight3">Me</span></h2>
+            <div class="contact-box">
+                <!-- <h4>Name:</h4> -->
+                <input placeholder="name" type="text" id="name-input" class="Ainput">
+                <!-- <h4>E-mail:</h4> -->
+                <input placeholder="email" type="email" id="email-input" class="Ainput">
+                <input placeholder="subject" type="text" id="subject-input" class="Ainput">
+                <!-- <h4></h4> -->
+                <!-- <input placeholder="your message" type="text" id="content-input" class="Binput"> -->
+                <textarea name="message" placeholder="your message..." class="Binput" id="" cols="30" style="resize: none;" rows="15"></textarea>
+                <div class="submit">
+                    <button type="submit" id="submit-input" class="submit-input">Send</button>
+                </div>
+                
+            </div>
+        </div>
+        <img src="IMG_20250421_165233-removebg-preview.png" alt="" class="anime3">
+    </main>
+
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://youtube.com/@codewith8uddy?si=vDEMHVhkCNQH3nk_" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                <i class="social-icon youtube"></i>
+            </a>
+            <a href="https://www.instagram.com/8uddys4nj4y?igsh=MWw4dXU4NGI4em5mcg==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <i class="social-icon instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/codewith8uddy-sanjay-642a36353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <i class="social-icon linkedin"></i>
+            </a>
+            <a href="https://github.com/8uddys4nj4y" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="social-icon github"></i>
+            </a>
+            <a href="https://discord.gg/B32g2RyV" target="_blank" rel="noopener noreferrer" aria-label="Discord">
+                <i class="social-icon discord"></i>
+            </a>
+        </div>
+        <div class="footer-text">
+            <p>© <span id="year"></span> | Portfolio</p>
+            <p>Game Developer | Frontend Developer | 3D Modeler</p>
+        </div>
+    </footer>
+
+    <div class="modal" id="certificateModal">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <div class="modal-body">
+                <img src="" alt="Certificate" id="certificateImage">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
